@@ -1,0 +1,57 @@
+body {
+    background-color: #f0ffff;
+    text-align: center;
+
+    h1 {
+        font-size: 62px;
+        letter-spacing: 10px;
+        margin-bottom: 70px;
+    }
+
+    h3 {
+        color: #5f9ea0;
+        font-size: 27px;
+    }
+
+    /*                        IMAGEN PERFIL */
+
+    img {
+        width: 60%;
+        border-radius: 50%;
+    }
+
+    /*                        LISTAS */
+
+    li {
+        line-height: 30px;
+    }
+
+    /*                        LINKS */
+
+    ol>li>a {
+        line-height: 50px;
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            text-decoration: solid;
+            font-size: 20px;
+        }
+    }
+
+    /*                        CONTENEDORES */
+
+    .caja_imagen {
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+
+    }
+
+    .caja_datos {
+        display: inline-block;
+        width: 20%;
+        text-align: left;
+        vertical-align: middle;
+    }
+}
